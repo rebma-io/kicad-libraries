@@ -1,0 +1,199 @@
+(footprint "Cliff S16N-PC FCR7350B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4mm Panel Socket")
+	(property "Reference" "REF**"
+		(at -1.27 -10.16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "613a2e64-ad13-4cef-9d8c-2a5efd2b331f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Cliff S16N-PC FCR7350B"
+		(at -2.54 12.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "592ed126-ee86-4e17-8274-1c13b5785bbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb92d644-734e-4740-a610-287d65fbd7ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d620514b-2d28-4063-8a92-7c90f225d695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a4ff0af-adfb-41b6-8c42-16135194e2a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7 -28)
+		(end 7 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f3a10362-23cb-4cb2-a689-d82849aba986")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.54 14.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a32b749-e709-4fbb-a173-bda68f338080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "24ec2731-ee2e-43e4-a836-a94456a35115")
+		(pts
+			(xy -5.08 5.08) (xy -5.08 -5.088)
+		)
+		(height -4.572)
+		(gr_text "400.3150 mils"
+			(at -10.802 -0.004 90)
+			(layer "Dwgs.User")
+			(uuid "24ec2731-ee2e-43e4-a836-a94456a35115")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "ad34161d-468e-46ba-b150-2328494fb01c")
+		(pts
+			(xy -5.08 5.08) (xy 5.072 5.08)
+		)
+		(height 5.08)
+		(gr_text "399.6850 mils"
+			(at -0.004 9.01 0)
+			(layer "Dwgs.User")
+			(uuid "ad34161d-468e-46ba-b150-2328494fb01c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0c963d0e-267b-42cb-9846-c86acb297858")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 -5.08)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a5fc894-d5b3-43cb-8843-204f51eba5a4")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 5.08)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "db7b78c1-e421-4977-8160-690318f45c87")
+	)
+	(pad "1" thru_hole circle
+		(at 5.08 -5.08)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1be87ef-b52e-4827-8831-d75d041fda96")
+	)
+	(pad "1" thru_hole circle
+		(at 5.08 5.08)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43a3970f-ac4d-4502-b157-89ef04a0b187")
+	)
+)

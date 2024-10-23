@@ -1,0 +1,110 @@
+(footprint "Bourns GDT25"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Next Generation 2-Electrode Gas Discharge Tube Arrestor")
+	(property "Reference" "REF**"
+		(at 1.905 -6.985 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c75bd06e-14e4-4ee7-a668-446fe973d345")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Bourns GDT25"
+		(at 3.175 0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef617f86-b2b0-4647-9020-2120be457600")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 3.175 -3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2b49bd0-dd21-4be6-9adc-19325969e921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/gdt25.pdf"
+		(at 3.175 -3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acea9614-92f9-4319-99b5-22cd72732226")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Next Generation 2-Electrode Gas Discharge Tube Arrestor"
+		(at 3.175 -3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc266b64-6d3a-4fe6-8d2f-272db3591984")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 -6.35)
+		(end 6.35 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8f61c251-ad08-408e-8b5c-0d4015c8bf76")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.175 1.905 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "038464e6-3266-4cf3-80ed-e5d0ecd49ccf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.4732 -3.175 90)
+		(size 4.445 1.016)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7fb83f10-6619-45f8-ac52-913880f39b2e")
+	)
+	(pad "2" smd roundrect
+		(at 5 -3.175 90)
+		(size 4.445 1.016)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "1f976c94-7ca3-4422-89a9-a7645eff82e5")
+	)
+)
