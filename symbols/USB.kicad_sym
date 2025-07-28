@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:QSOP-28_3.9x9.9mm_P0.635mm"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "USB2.0 protocol compliant 4-port USB HUB controller chip"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,7 +87,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 1.27 180)
+				(at 12.7 1.27 180)
 				(length 2.54)
 				(name "DP1"
 					(effects
@@ -105,7 +105,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -1.27 180)
+				(at 12.7 -1.27 180)
 				(length 2.54)
 				(name "DM1"
 					(effects
@@ -123,7 +123,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -3.81 180)
+				(at 12.7 -3.81 180)
 				(length 2.54)
 				(name "DP2"
 					(effects
@@ -141,7 +141,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -6.35 180)
+				(at 12.7 -6.35 180)
 				(length 2.54)
 				(name "DM2"
 					(effects
@@ -161,8 +161,8 @@
 		)
 		(symbol "CH334U_1_1"
 			(rectangle
-				(start -10.16 17.78)
-				(end 8.89 -19.05)
+				(start -11.43 17.78)
+				(end 10.16 -19.05)
 				(stroke
 					(width 0)
 					(type solid)
@@ -172,7 +172,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 13.97 0)
+				(at -13.97 13.97 0)
 				(length 2.54)
 				(name "~{RESET}"
 					(effects
@@ -191,7 +191,7 @@
 				(alternate "CDP" bidirectional line)
 			)
 			(pin output line
-				(at -12.7 11.43 0)
+				(at -13.97 11.43 0)
 				(length 2.54)
 				(name "~{PWREN}"
 					(effects
@@ -209,7 +209,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 8.89 0)
+				(at -13.97 8.89 0)
 				(length 2.54)
 				(name "~{OVCUR}"
 					(effects
@@ -227,7 +227,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 6.35 0)
+				(at -13.97 6.35 0)
 				(length 2.54)
 				(name "PSELF"
 					(effects
@@ -245,7 +245,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 1.27 0)
+				(at -13.97 1.27 0)
 				(length 2.54)
 				(name "DMU"
 					(effects
@@ -263,7 +263,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -1.27 0)
+				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "DPU"
 					(effects
@@ -281,7 +281,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -6.35 0)
+				(at -13.97 -6.35 0)
 				(length 2.54)
 				(name "XO"
 					(effects
@@ -299,7 +299,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -8.89 0)
+				(at -13.97 -8.89 0)
 				(length 2.54)
 				(name "XI"
 					(effects
@@ -317,7 +317,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -13.97 0)
+				(at -13.97 -13.97 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -335,7 +335,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -16.51 0)
+				(at -13.97 -16.51 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -425,7 +425,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 13.97 180)
+				(at 12.7 13.97 180)
 				(length 2.54)
 				(name "LED1"
 					(effects
@@ -443,7 +443,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 11.43 180)
+				(at 12.7 11.43 180)
 				(length 2.54)
 				(name "LED2"
 					(effects
@@ -461,7 +461,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 8.89 180)
+				(at 12.7 8.89 180)
 				(length 2.54)
 				(name "LED3"
 					(effects
@@ -480,7 +480,7 @@
 				(alternate "SCL" input line)
 			)
 			(pin bidirectional line
-				(at 11.43 6.35 180)
+				(at 12.7 6.35 180)
 				(length 2.54)
 				(name "LED4"
 					(effects
@@ -499,7 +499,7 @@
 				(alternate "SDA" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 11.43 -8.89 180)
+				(at 12.7 -8.89 180)
 				(length 2.54)
 				(name "DP3"
 					(effects
@@ -517,7 +517,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -11.43 180)
+				(at 12.7 -11.43 180)
 				(length 2.54)
 				(name "DM3"
 					(effects
@@ -535,7 +535,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -16.51 180)
+				(at 12.7 -16.51 180)
 				(length 2.54)
 				(name "DM4"
 					(effects
@@ -553,7 +553,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.4555 -14.0121 180)
+				(at 12.7255 -14.0121 180)
 				(length 2.54)
 				(name "DP4"
 					(effects
